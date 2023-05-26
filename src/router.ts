@@ -19,12 +19,12 @@ const baseURL: string = (import.meta as any).env.BASE_URL;
 export const router = new Router({
     routes: [
       {
-        path:baseURL,
+        path: `${baseURL}/`,
         title: 'Home',
         render: () => html`<app-home></app-home>`
       },
       {
-        path: `${baseURL}about`,
+        path: `${baseURL}/about`,
         title: 'About',
         plugins: [
           lazy(() => import('./pages/app-about/app-about.js')),
