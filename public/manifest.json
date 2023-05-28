@@ -61,6 +61,7 @@
   "widgets": [
     {
       "name": "Starter Widget",
+      "short_name": "Swidg",
       "tag": "starterWidget",
       "ms_ac_template": "widget/ac.json",
       "data": "widget/data.json",
